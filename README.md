@@ -23,4 +23,8 @@
 
 [Link to our Layout of our Project](https://github.com/rrente43/Project2/blob/master/public/layout1.jpg)
 
+<<<<<<< HEAD
 [Second Link to our Layout of our Project](https://github.com/rrente43/Project2/blob/master/public/layout2.jpg)
+=======
+[:)](https://github.com/rrente43/Project2/blob/master/public/layout2.jpg)
+>>>>>>> master
