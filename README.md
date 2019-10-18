@@ -21,6 +21,6 @@
 * Must not expose sensitive API key information on the server, see [Protecting-API-Keys-In-Node.md](../../../../01-Class-Content/10-nodejs/03-Supplemental/Protecting-API-Keys-In-Node.md)
 
 
-[Our Project Layout](https://github.com/erikagonzalez64/Project2/layout1.jpg)
+[Our Layout](https://github.com/rrente43/Project2/blob/master/public/layout1.jpg)
 
-
+[:)](https://github.com/rrente43/Project2/blob/master/public/layout2.jpg)
