@@ -1,0 +1,66 @@
+
+  body {
+    font-family: "Lato", sans-serif;
+    background-color: black  }
+  
+ 
+  .sidenav {
+   
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    margin-right: 20px;
+    background-color: #111;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+    padding-left: 20px;
+    float: right;
+    font-size: 25px;
+    color: #1c2a38!important;
+    display: block;
+    
+  }
+  .card1{
+      width: 800px;
+      margin-top: 50px;
+      margin-left: 60px;
+      background-color: #ef7777;
+      
+  }
+  .card-title{
+      text-align: center;
+      margin-bottom: 30px;
+      
+  }
+h1{
+    font-size: 40px;
+}
+/* .card-body{
+    align-self: center;
+    margin-right: 30px;
+} */
+.card-body2{
+    background:#dedede;
+    width: 800px;
+
+}
+.card-header{
+    background:#dedede;
+    width: 800px;
+
+}
+.card-footer{
+    background-color:#dedede;
+    width: 800px;
+}
+.card{
+    float: left;
+}
+.col-md-12{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.form{
+    background: #02142a;
+}
