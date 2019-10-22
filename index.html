@@ -2,261 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FitFlex</title>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Meta -->
-    <meta name="description"
-        content="FitFlex provides free workout routines, healthy recipes and more.">
-    <meta name="keywords" content="fitness, workout, workout routines, healthy recipes">
-<!--We need to make our own css example down below-->
-    <!-- <link href="https://cloudfront.fitnessblender.com/assets/css/styles-47573b9306.css" rel="stylesheet"> -->
-
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
-    <script src="https://browser.sentry-cdn.com/4.6.4/bundle.min.js" crossorigin="anonymous"></script>
-
-    <script>
-        window.Laravel = {
-            "csrfToken": "PStSfG8hDC87fFc451neWIsFXuYXNqiOZSHpOezc",
-            "user": {
-                "isLoggedIn": false,
-                "displayName": "Guest",
-                "firstName": "guest",
-                "username": "guest",
-                "avatar": "",
-                "notificationCount": 0,
-                "startMonday": 0,
-            },
-            "cart": {
-                "count": 0
-            }
-        }
-
-        document.cookie = 'FB_TZ=' + (new Date()).getTimezoneOffset() / 60 + ";path=/";
-    </script>
-
-    <!-- Google AdSense -->
-
-    <!-- Google Analytics -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-17144298-1', 'auto');
-
-        ga('set', 'dimension1', 'Visitor');
-        ga('send', 'pageview');
-
-    </script>
-    <!-- End Google Analytics -->
+    <title>Document</title>
 </head>
 
-<body class="">
-    <a href="#content" class="sr-only">Skip to Main Content</a>
-    <div id="announcement" class="announcement notice announcement-hidden" data-cookie="FBA1_36">
-        <div class="inner">
-            <!-- announcement will go in p tag if Team decides to add this feature -->
-            <p></p>
-            <span class="iconfont-close-modal close-announcement" id="closeAnnouncement"></span>
-        </div>
-    </div>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Motivational App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div>
-        <!---->
-        <!---->
-    </div>
-    <div>
-        <!---->
-        <!---->
-    </div>
-    <div>
-        <!---->
-        <!---->
-    </div>
-    <div>
-        <!---->
-        <!---->
-    </div>
-    <header class="fb-menu" id="header">
-        <div class="container header-container">
-            <h1 class=""><a href="#">FitFlex</a></h1>
-            <nav class="menu-main">
-                <ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
 
-                    <li class="has-dropdown healthy-living">
-                        <a href="/healthy-living" class="anchor dropdown-button" data-event="hover" data-menulink=""
-                            aria-controls="healthy-living-dropdown"><span>Healthy Living<span
-                                    class="iconfont-carrot"></span></span></a>
-                        <ul class="sub-menu the-dropdown" id="healthy-living-dropdown">
-
-                            <li><a href="/healthy-living/health"><span class="menu-icon"><i class="icon -health"
-                                            aria-hidden="true"></i></span><span class="menu-label">Healthy
-                                        Living</span></a></li>
-
-
-
-                        </ul>
-                    </li>
-
-                    <li class="blog ">
-                        <a href="/blog" class="anchor"><span>Blog</span></a>
-                    </li>
-
-
-                </ul>
-            </nav>
-            <div class="menu-controls">
-                <div class="menu-login has-dropdown hover">
-                    <div class="menu-login-button logged-out dropdown-button" data-event="hover"
-                        aria-controls="user-dropdown" tabindex="0">
-                        <div class="avatar-container">
-                            <span class="iconfont-profile-icon avatar-guest"></span>
-                            <span class="iconfont-carrot"></span>
-                        </div>
-                        <div class="menu-id">
-                            <span class="menu-login-name">Hi! Sign In</span>
-                            <span class="menu-login-label">FitFlex
-                                <span class="iconfont-carrot"></span></span>
-                        </div>
-                    </div>
-                    <div class="menu-login-dropdown the-dropdown" id="user-dropdown">
-                        <div class="menu-login-join">
-                            <h2 class="heading -x-small upper demi">Join for Free!</h2>
-                            <p class="small regular">Join for free and start living a healthier lifestyle, get
-                                support from other FitFlex members!</p>
-                            <a href="/join" class="btn -main -block">Join</a>
-                            <a href="/login" class="btn -link-reverse -block upper">Sign In</a>
-                        </div>
-                    </div>
-                </div>
-                <button class="hamburger" id="hamburger" tabindex="-1"><span class="inner"><i></i></span></button>
-                <div class="menu-util">
-                    <div class="menu-search has-dropdown" data-focus="search">
-                        <span class="dropdown-button" data-event="click"><span aria-hidden="true"
-                                class="iconfont-search" tabindex="0" data-blur-hovers=""></span></span>
-                        <div class="search-dropdown the-dropdown">
-                            <div class="container -flush">
-                                <form class="search-form" method="GET" action="/search" id="searchForm">
-                                    <label class="sr-only" for="search">Search</label>
-                                    <input name="keywords" id="searchInput" type="text" autocomplete="off"
-                                        placeholder="KEYWORD SEARCH"><button type="submit"><span
-                                            class="sr-only">Search</span><span class="iconfont-search white"
-                                            aria-hidden="true"></span></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <nav class="alt-nav mobile-nav mobile-open" role="navigation">
-        <header class="header">
-            <form class="search-form" method="GET" action="/search">
-                <label class="sr-only" for="search">Search</label>
-                <input name="keywords" type="text" placeholder="SEARCH" tabindex="-1">
-                <button type="submit" tabindex="-1"><span class="sr-only">Search</span><span
-                        class="iconfont-search white" aria-hidden="true"></span></button>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            <a class="header__item nav-link cart" href="/store/cart" tabindex="-1">
-                <span class="sr-only">Cart</span>
-                <span class="iconfont-shopping-bag white" aria-hidden="true"></span>
-            </a>
-        </header>
-        <div class="scroll">
-            <ul class="first">
-                <li><a class="demi" href="" tabindex="-1">Workouts</a></li>
-                <li><a href="" tabindex="-1">Workout Programs</a></li>
-            </ul>
-            <ul>
-                <li><a class="demi" href="" tabindex="-1">Healthy Living</a></li>
-                <li><a href="" tabindex="-1">Meal Plans</a></li>
-            </ul>
-            <ul>
-                <li><a class="demi" href="" tabindex="-1">Community</a></li>
-            </ul>
-            <ul>
-                <li><a class="demi" href="" tabindex="-1">Blog</a></li>
-            </ul>
         </div>
     </nav>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="w3-card-4">
 
-    <main id="content" class="grey-background no-pad" role="main">
-
-
-        <section class="masthead home-masthead">
-            <div class="container">
+                <img src="this.JPG" alt="Alps" width="1000px" height="500px">
 
             </div>
-        </section>
-
-        <section class="home-masthead-list">
-
-        </section>
-
-
-        <footer class="footer_cta pagination-wrapper">
-
-        </footer>
-
-    </main>
-
-    <footer id="footer" class="site__footer" role="contentinfo">
-        <div class="container">
-
-            <nav class="footer__nav alt-nav">
-                <ul>
-                    <li><a class="demi" href="/workouts-programs">Workout</a></li>
-
-                </ul>
-                <ul>
-                    <li><a class="demi" href="/healthy-living">Healthy Living</a></li>
-                </ul>
-                <ul>
-                    <li><a class="demi" href="/community">Community</a></li>
-
-                </ul>
-            </nav>
         </div>
-        <div class="container">
-            <div class="end">
+        <div class="col-md-3">
+            <div class="sidenav">
+                <a href="#">Spotify Api</a>
 
-                <ul class="nav-smicons footer-smicons">
-
-
-                    <li class="facebook-smi"><a href="https://www.facebook.com"
-                            target="_blank"><span class="iconfont-facebook"></span><span
-                                class="sr-only">Facebook</span></a></li>
-                    <li class="instagram-smi"><a href="https://instagram.com" target="_blank"><span
-                                class="iconfont-instagram"></span><span class="sr-only">Instagram</span></a></li>
-                    <li class="twitter-smi"><a href="https://twitter.com" target="_blank"><span
-                                class="iconfont-twitter"></span><span class="sr-only">Twitter</span></a></li>
-                </ul>
             </div>
         </div>
-    </footer>
 
-    <script>
 
-        var homeCaroVue = new Vue({
-            el: '#homeCarousel',
-            components: {
-                'carousel': Carousel,
-                'slide': Slide
-            }
-        })
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card1">
+                    
+                    <div class="card-body"style="margin-bottom: 30px;">
+                        <h1 class="card-title">Set a Goal Today</h1>
+                        <a href="#" class="btn btn-primary">Create a Post</a>
+                    </div>
+                </div>
 
-    </script>
+            </div>
+        </div>
+<br>
+<div class="row">
+        <div class="col-md-9">
+                <div class="card text-center">
+                        <div class="card-header">
+                            <h2>Blogfeed</h2>
+                            <a href="#">All Posts </a> | <a href="#"> My Posts</a>
+                            
+                        </div>
+                        <div class="card-body2">
+                                <div class="card" style="width: 18rem; margin-right: 10px;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Name</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">Goal</h6>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="card-link">Card link</a>
+                                          
+                                        </div>
+                                      </div>
+                                      <div class="card" style="width: 18rem; margin-right: 10px;">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Name</h5>
+                                              <h6 class="card-subtitle mb-2 text-muted">Goal</h6>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="card-link">Card link</a>
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="card" style="width: 18rem;margin-right: 10px;">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Name</h5>
+                                                  <h6 class="card-subtitle mb-2 text-muted">Goal</h6>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="card-link">Card link</a>
+                                                  
+                                                </div>
+                                              </div>
+                                      
+
+                                      
+                          
+                        </div>
+                        <div class="card-footer text-muted">
+                          2 days ago
+                        </div>
+                      </div>
+        </div>
+        <div class="col-md-3">
+                <form>
+                        <div class="form-group">
+                    
+                          <label for="exampleInputEmail1">name</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+        </div>
+</div>
+
+
+
+
+
+
 </body>
 
 </html>
