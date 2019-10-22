@@ -24,3 +24,10 @@
 [Our Layout](https://github.com/rrente43/Project2/blob/master/public/layout1.jpg)
 
 [:)](https://github.com/rrente43/Project2/blob/master/public/layout2.jpg)
+
+
+1 - We are trying to make an application based website for setting personal fitness and mental health goals and helping people keep themselves and one another inspired and accountable.
+
+2 - We have inspirational podcasts to keep people in the right fram of mind and for new workout or diet plans. On top of that we also have a blog to track your personal goals and keep up with what everybosy is posting.
+
+3 - We are editing the website still to make it more user friendly, inserting more tests and bugs to keep it from crashing, making the sign in page mandatory, integrating the google authorization, and making the blog post able to trace back to a author and making it searchable based on topic or author .
