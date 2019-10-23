@@ -33,6 +33,12 @@
       margin-bottom: 30px;
       
   }
+
+  #container{
+    text-align: center;
+    display: inline-block;
+  }
+
 h1{
     font-size: 40px;
 }
@@ -63,4 +69,7 @@ h1{
 }
 .form{
     background: #02142a;
+}
+#playlist{
+    padding-right: 120px;
 }
