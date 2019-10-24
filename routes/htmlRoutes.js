@@ -1,4 +1,5 @@
 var db = require("../models");
+var withAuth = require('./authorization')
 
 module.exports = function(app) {
   // Load index page
@@ -9,7 +10,7 @@ module.exports = function(app) {
         examples: dbExamples
       });
     });
-  });
+  })(withAuth);
 
   // Load example page and pass in an example by id
   app.get("/example/:id", function(req, res) {
